@@ -1,0 +1,64 @@
+.wordle {
+  &__container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  &-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__container {
+      gap: 0.5rem;
+      grid-template-rows: repeat(6, 1fr);
+      display: grid;
+      width: 100%;
+      max-height: 420px;
+      max-width: 350px;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.5rem;
+
+      div {
+        border: 2px solid $color-button;
+      }
+    }
+  }
+  &-keyboard {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 0 1rem 1.5rem;
+    gap: 0.75rem;
+
+    div {
+      display: flex;
+      gap: 0.5rem;
+      button {
+        border: none;
+        border-radius: 0.5rem;
+        background: $color-button;
+        height: 5.8rem;
+        width: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+        gap: 1rem;
+        color: $color-text;
+        transition: 10ms;
+
+        &:active {
+          background: $color-button-active;
+        }
+      }
+      .button-delete {
+        padding: 0 0.75rem;
+      }
+      .button-enter {
+        padding: 0 0.5rem;
+      }
+    }
+  }
+}

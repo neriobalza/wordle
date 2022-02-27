@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&display=swap");
+$title-font: "Roboto Slab", serif;
+
+:root {
+  --color-tone-1: #000000;
+  --color-tone-2: #787c7e;
+  --color-tone-3: #878a8c;
+  --color-tone-4: #d3d6da;
+  --color-tone-5: #edeff1;
+  --color-tone-6: #f6f7f8;
+  --color-tone-7: #ffffff;
+  --color-nav-hover: #f4f4f4;
+  --opacity-50: rgba(255, 255, 255, 0.5);
+}
+
+$color-present: #c9b458;
+$color-correct: #6aaa64;
+$color-absent: var(--color-tone-2);
+$color-button: var(--color-tone-4);
+$color-button-active: var(--color-tone-3);
+$color-text: var(--color-tone-1);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $title-font;
+}
