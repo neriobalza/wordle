@@ -19,52 +19,7 @@ const Wordle = () => {
   return (
     <main className="wordle">
       <div className="wordle__container">
-        <section className="wordle-board" id="board">
-          <div className="wordle-board__container">
-            <div className="row">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="row">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="row">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="row">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="row">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="row">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </section>
+        <section className="wordle-board" id="board"></section>
 
         <section className="wordle-keyboard">
           <div>
